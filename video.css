@@ -1,0 +1,98 @@
+<!CSS for myPage.html>
+body{
+	margin:0;
+	background:#232323;
+
+}
+
+.audio-background{
+	position:fixed;
+	top:48%;
+	left:66%;
+	z-index:1
+}
+.video-background{
+	position:fixed;
+	top:0;
+	left:0;
+	min-width:100%;
+	min-height:100%;
+}
+
+
+h1{
+	/*mid*/
+	
+	position:absolute;
+	top:10%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	
+	font-size:40px;
+	color:rgb=(255,255,255);
+	
+	z-index:1;
+	
+	padding-bottom:0px;
+}
+*{
+  font-family: 'Kumar One Outline', cursive;
+}
+
+.centered{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%); 
+  z-index:1;
+}
+
+.neon-effect{
+  color:#fff;
+  letter-spacing:2px;
+  z-index:1;
+}
+
+.neon-effect:nth-of-type(1){
+  text-shadow:
+    0 0 5px rgba(67,232,216, 1),
+    0 0 10px rgba(67,232,216, 1),
+    0 0 20px rgba(67,232,216, 1),
+    0 0 40px rgba(67,232,216, 1);
+  animation:neon-shine 5s linear infinite;
+  z-index:1;
+}
+
+.neon-effect:nth-of-type(2){
+  text-shadow:
+    0 0 5px rgba(247, 245, 41,.1),
+    0 0 10px rgba(247, 245, 41,1),
+    0 0 20px rgba(247, 245, 41,1),
+    0 0 40px rgba(247, 245, 41,1);
+   animation:neon-shine 5S linear infinite;
+   z-index:1;
+}
+ 
+.neon-effect:nth-of-type(3){
+  text-shadow:
+    0 0 5px rgba(255, 65, 65, 1),
+    0 0 10px rgba(255, 65, 65, 1),
+    0 0 20px rgba(255, 65, 65, 1),
+    0 0 40px rgba(255, 65, 65, 1);
+  animation:neon-shine 5s linear infinite;
+  z-index:1;
+}
+
+@keyframes neon-shine{
+  80%{opacity:1;}
+  90%{opacity:0;}
+  100%{
+  color:#232323;}
+  z-index:1;
+}  
+
+.centered2{
+
+  z-index:2;
+}
+
